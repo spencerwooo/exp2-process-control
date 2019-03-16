@@ -27,6 +27,18 @@
 
 ## ParentProcess的用法：
 
+### Windows
+
+```powershell
+$ .\ParentProcess.exe ChildProcess
 ```
-$ ParentProcess.exe ChildProcess
+
+![](image/windows.png)
+
+### Linux
+
+```bash
+$ ./ParentProcess ChildProcess
 ```
+
+![](image/linux.png)
