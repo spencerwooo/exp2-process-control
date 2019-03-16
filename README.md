@@ -8,7 +8,7 @@
 - 使用 WaitForSingleObject() 在 "ParentProcess” 命令和新创建的进程之间同步
 - 调用 GetSystemTime() 来获取时间
 
-## 在Linux下实现:
+## 在 Linux 下实现:
 
 - 使用 fork()/execv() 来创建进程运行程序
 - 使用 wait() 等待新创建的进程结束
@@ -22,10 +22,10 @@
   - 打印子进程开始时间，结束时间，耗时。精确到毫秒
 - 子进程：
   - 名称：ChildProcess(.exe)
-  - 功能：打印「Hi，my name is + 你的名字」
+  - 功能：打印 Hi，my name is + 你的名字
   - 延时 3s
 
-## ParentProcess的用法：
+## ParentProcess 的用法：
 
 ### Windows
 
