@@ -1,15 +1,14 @@
 #include <windows.h>
 #include <iostream>
-#include <stdio.h>
 
 using namespace std;
 
 int main(int argc, char const *argv[])
 {
-  cout << "args_num: " << argc << endl;
-  for (int i = 0; i < argc; i++)
-  {
-    cout << "arg " << i << " = " << argv[i] << endl;
-  }
+  char name[10] = "武上博";
+  cout << "Hi, my name is " << name << endl;
+
+  // 延时三秒
+  Sleep(3000);
   return 0;
 }
