@@ -18,11 +18,11 @@
 
 - 父进程：
   - 名称：ParentProcess(.exe)
-  - 功能：启动ChildProcess(.exe)
-  - 打印子进程开始时间，结束时间，耗时,精确到ms
+  - 功能：启动 ChildProcess(.exe)
+  - 打印子进程开始时间，结束时间，耗时。精确到毫秒
 - 子进程：
   - 名称：ChildProcess(.exe)
-  - 功能：打印：Hi，my name is + 你的名字
+  - 功能：打印「Hi，my name is + 你的名字」
   - 延时 3s
 
 ## ParentProcess的用法：
